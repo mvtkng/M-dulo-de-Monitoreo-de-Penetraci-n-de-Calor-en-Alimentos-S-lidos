@@ -1,10 +1,10 @@
-# 🌡️ Módulo de Monitoreo de Penetración de Calor en Alimentos Sólidos
+#  Módulo de Monitoreo de Penetración de Calor en Alimentos Sólidos
 
 > Sistema IoT embebido diseñado para registrar y analizar en tiempo real la transferencia de calor en el núcleo de un alimento sólido durante su cocción en un baño de agua caliente, midiendo simultáneamente la temperatura del medio y del alimento.
 
 ---
 
-## 📌 Tabla de Contenidos
+##  Tabla de Contenidos
 
 - [Descripción General](#-descripción-general)
 - [Estructura del Repositorio](#-estructura-del-repositorio)
@@ -18,7 +18,7 @@
 
 ---
 
-## 📋 Descripción General
+##  Descripción General
 
 Este módulo experimental permite estudiar el comportamiento térmico y la cinética de penetración del calor en alimentos sólidos sumergidos en agua caliente. 
 
@@ -30,7 +30,7 @@ Los datos capturados son procesados por el microcontrolador (ESP32 / Arduino) y 
 
 ---
 
-## 📂 Estructura del Repositorio
+##  Estructura del Repositorio
 
 ```text
 /
@@ -44,7 +44,7 @@ Los datos capturados son procesados por el microcontrolador (ESP32 / Arduino) y 
 ├── .gitignore           # Archivos omitidos del control de versiones
 └── README.md            # Documentación general del proyecto
 ```
-## 🛠️ Requisitos Previos
+##  Requisitos Previos
 Hardware
 Microcontrolador ESP32 (o Arduino con módulo de red/WiFi).
 
@@ -53,16 +53,7 @@ Microcontrolador ESP32 (o Arduino con módulo de red/WiFi).
 Resistencia de pull-up de 4.7kΩ (en caso de usar protocolo OneWire / DS18B20).
 
 Fuente de alimentación o cable USB.
-🛠️ Requisitos Previos
-Hardware
-Microcontrolador ESP32 (o Arduino con módulo de red/WiFi).
-
-2× Sensores de temperatura sumergibles / de inserción (ej. DS18B20 con recubrimiento de acero inoxidable).
-
-Resistencia de pull-up de 4.7kΩ (en caso de usar protocolo OneWire / DS18B20).
-
-Fuente de alimentación o cable USB.
-## ⚙️ Instalación y Configuración
+##  Instalación y Configuración
 1. Firmware (ESP32 / Arduino)
   1.Abre el proyecto en la carpeta firmware/ con tu IDE.
 
@@ -89,7 +80,7 @@ const char* PASSWORD = "TU_CONTRASEÑA";
 const ESP32_IP = "[http://192.168.](http://192.168.)X.X";
 ```
  3. Abre index.html en tu navegador web.
-## 🚀 Uso y Funcionamiento
+##  Uso y Funcionamiento
 
 1. Preparación:
     Coloca el primer sensor sumergido en el recipiente de agua caliente.
@@ -103,7 +94,7 @@ const ESP32_IP = "[http://192.168.](http://192.168.)X.X";
 3. Análisis:
 
     La interfaz web graficará en tiempo real las dos curvas de temperatura (Agua vs. Núcleo), permitiendo analizar el tiempo de retraso térmico y la             velocidad de penetración del calor.
-## 🧰 Arquitectura y Tecnologías
+##  Arquitectura y Tecnologías
 
 Hardware: ESP32 / Arduino.
 
@@ -114,7 +105,7 @@ Firmware: C++ / Wiring.
 Frontend: HTML5, CSS3, JavaScript (Chart.js para graficación diferencial).
 
 Protocolo de Comunicación: HTTP REST API / WebSockets (transmisión en tiempo real en formato JSON).
-## 👨‍💻 Autores
+##  Autores
 Javiera Aldana  Proyect Owner: Coordinar el equipo, organizar tareas y plazos, supervisar avances y asegurar la integración del proyecto.
 
 Gonzalo Ampuero Responsable científico: Transferencia de calor, variables, hipótesis, protocolo experimental y análisis de resultados.
