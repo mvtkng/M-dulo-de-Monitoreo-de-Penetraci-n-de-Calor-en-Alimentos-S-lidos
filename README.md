@@ -1,0 +1,1 @@
+# M-dulo-de-Monitoreo-de-Penetraci-n-de-Calor-en-Alimentos-S-lidos
